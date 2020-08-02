@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataStructureLinkedList", "
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "leetcode", "leetcode\leetcode.pyproj", "{52C614CD-FBFD-4948-A8E9-B8873C113953}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TreesAndGraphs", "TreesAndGraphs\TreesAndGraphs.pyproj", "{021A586A-0F10-4CD9-8C6C-AAEE9C445586}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{79863385-C3DA-43F3-9AE7-22453F51B651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C614CD-FBFD-4948-A8E9-B8873C113953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52C614CD-FBFD-4948-A8E9-B8873C113953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021A586A-0F10-4CD9-8C6C-AAEE9C445586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021A586A-0F10-4CD9-8C6C-AAEE9C445586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

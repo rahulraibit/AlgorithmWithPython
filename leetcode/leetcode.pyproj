@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>52c614cd-fbfd-4948-a8e9-b8873c113953</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>leetcode.py</StartupFile>
+    <StartupFile>ProductExceptItself.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,37 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="backSpaceComparer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DesignHasheSet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupAnagram.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LastStoneWeight.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="leetcode.py" />
+    <Compile Include="LinkListMiddleElement.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxContineusSubArray.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxContinuesBinarySubArray.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinStack.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveZeros.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductExceptItself.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

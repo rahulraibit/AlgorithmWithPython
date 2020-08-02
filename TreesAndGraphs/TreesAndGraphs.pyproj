@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>79c7e194-a082-49b8-83f2-c72c332fbe5a</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>urlify.py</StartupFile>
+    <ProjectGuid>021a586a-0f10-4cd9-8c6c-aaee9c445586</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>diameterofTree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>DataStructureWithString</Name>
-    <RootNamespace>DataStructure</RootNamespace>
+    <Name>TreesAndGraphs</Name>
+    <RootNamespace>TreesAndGraphs</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,32 +21,43 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FindUniqueCharacter.py">
+    <Compile Include="CheckGivenTreeIsHeightBalanced.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="HelloWorld.py" />
-    <Compile Include="IsSubstring.py">
+    <Compile Include="CheckIfBST.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="oneWay.py">
+    <Compile Include="CheckIFSubtree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PallindromPermutation.py">
+    <Compile Include="CountNumberOfTrees.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PermuationOfString.py">
+    <Compile Include="CreateBinaryTree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RotateAMatrix.py">
+    <Compile Include="diameterofTree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="stringcompression.py">
+    <Compile Include="FindSuccessor.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="urlify.py">
+    <Compile Include="FirstCommonAncestor.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="zeroMatrix.py">
+    <Compile Include="ListOfDepths.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Random Node.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoutesBetweenNodes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortedArrayToBinaryTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopologicalSorting.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
