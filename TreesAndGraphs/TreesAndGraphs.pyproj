@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>021a586a-0f10-4cd9-8c6c-aaee9c445586</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>diameterofTree.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BipartitionGraphAndColouringProblem.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CheckGivenTreeIsHeightBalanced.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,10 +39,25 @@
     <Compile Include="CountNumberOfTrees.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CousinInBinaryTree.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CreateBinaryTree.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CycleInDirectedGraph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="diameterofTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dijikstra.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dikstraalgorithm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FindSuccessor.py">
@@ -57,7 +78,13 @@
     <Compile Include="SortedArrayToBinaryTree.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TopologicalSorting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TrieImplementation.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
