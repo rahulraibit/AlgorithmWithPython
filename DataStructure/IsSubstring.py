@@ -25,7 +25,7 @@ def IsRotationOfstring2(s1, s2):
     if len(s1) != len(s2) or s1  == None:
         return False;
     s3 = s1 + s2;
-    if ''.join(s3).index(s2) > -1:
+    if s3.index(s2) > -1:
         return True;
     return False;
 

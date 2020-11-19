@@ -9,6 +9,7 @@ class Trie:
 
     def charToIndex(self, c):
         return ord(c) - ord('a');
+
     def insert(self, word):
         wlength = len(word);
         temp = self.root;
@@ -18,6 +19,7 @@ class Trie:
                 temp.child[index] = TrieNode();
             temp = temp.child[index];
         temp.isWordEnd = True;
+
     def searchUtil(self, key, node):
         temp = node;
         wlength= len(key);

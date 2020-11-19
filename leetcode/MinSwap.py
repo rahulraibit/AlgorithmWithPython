@@ -1,7 +1,7 @@
 #min swap for sorting the array
 
 def minswap(arr):
-    arrPos = [*enumerate(arr)]
+    arrPos = [(i, n ) for i,n in enumerate(arr)]
     arrPos = sorted(arrPos, key = lambda k : k[1])
     vis = {k : False for k in range(len(arr))}
     ans = 0;

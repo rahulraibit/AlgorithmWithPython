@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>52c614cd-fbfd-4948-a8e9-b8873c113953</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IsPowerOfFour.py</StartupFile>
+    <StartupFile>AutoCompleteDesign.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AddTwoNumberWithoutOperator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AutoCompleteDesign.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="backSpaceComparer.py">
       <SubType>Code</SubType>
     </Compile>
@@ -95,6 +101,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ValidParanthesis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordBreakProblem.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

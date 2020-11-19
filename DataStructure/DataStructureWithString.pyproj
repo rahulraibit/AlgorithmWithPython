@@ -41,6 +41,9 @@
     <Compile Include="RotateAMatrix.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="SpiralMatrix.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stringcompression.py">
       <SubType>Code</SubType>
     </Compile>

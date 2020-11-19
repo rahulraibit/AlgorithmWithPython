@@ -1,20 +1,62 @@
-#min swap for sorting the array
+#class Solution:
+#    def nextGreatestLetter(self, letters: [str], target: str) -> str:
+#        n = len(letters)
+#        start = 0
+#        end = n
+#        while start < end:
+#            mid = (start + end)//2
+#            if letters[mid] == target:
+#                return letters[(mid+1)%n]
+#            elif letters[mid] < target:
+#                start = mid + 1
+#            else:
+#                end = mid
+#        return letters[(mid+1 )%n]
 
-def minswap(arr):
-    arrPos = [*enumerate(arr)]
-    arrPos = sorted(arrPos, key = lambda k : k[1])
-    vis = {k : False for k in range(len(arr))}
-    ans = 0;
-    for i in range(len(arrPos)):
-        if vis[i] or arrPos[i][0] == i:
-            continue;
-        j = i
-        cycleSize = 0;
-        while not vis[j]:
-            vis[j] = True;
-            cycleSize += 1;
-            j = arrPos[j][0]
-        if cycleSize > 0:
-            ans = ans + cycleSize - 1;
-    return ans;
-print(minswap([4, 3, 1, 2]))
+#sln = Solution()
+#sln.nextGreatestLetter(["c","f","j"],
+#"a")
+
+
+# A Python program to find first non-repeating character from 
+# a stream of characters 
+MAX_CHAR = 256
+
+def findFirstNonRepeating(): 
+
+	# inDLL[x] contains pointer to a DLL node if x is present 
+	# in DLL. If x is not present, then inDLL[x] is NULL 
+	inDLL = [] * MAX_CHAR 
+
+	# repeated[x] is true if x is repeated two or more times. 
+	# If x is not seen so far or x is seen only once. then 
+	# repeated[x] is false 
+	repeated = [False] * MAX_CHAR 
+
+	# Let us consider following stream and see the process 
+	stream = "geekforgeekandgeeksandquizfor"
+	for i in range(len(stream)): 
+		x = stream[i] 
+		print ("Reading " + x + " from stream") 
+
+		# We process this character only if it has not occurred 
+		# or occurred only once. repeated[x] is true if x is 
+		# repeated twice or more.s 
+		if not repeated[ord(x)]: 
+
+			# If the character is not in DLL, then add this 
+			# at the end of DLL 
+			if not x in inDLL: 
+				inDLL.append(x) 
+			else: 
+				inDLL.remove(x) 
+				repeated[ord(x)] = True
+
+		if len(inDLL) != 0: 
+			print ("First non-repeating character so far is ") 
+			print (str(inDLL[0])) 
+
+# Driver program 
+findFirstNonRepeating() 
+
+# This code is contributed by BHAVYA JAIN 

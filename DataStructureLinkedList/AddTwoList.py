@@ -21,6 +21,23 @@ class LinkedList:
         self.head = None;
         self.nextNode = None;
         self.data =None;
+    def reverseList(self, head: Node):
+        if not head.next or not head:
+            return head;
+        p = self.reverseList(head.next);
+        head.next.next = head
+        head.next = None;
+        return p;
+    #def reverseList(self, head: Node):
+    #    prev = None
+    #    current = head
+    #    next = None
+    #    while current:
+    #        next = current.next;
+    #        current.next = prev
+    #        prev = current
+    #        current = next
+    #    return prev; 
     def add(self, data):
         if self.head is None:
             self.head = Node(data);
@@ -29,19 +46,33 @@ class LinkedList:
             self.nextNode.next = Node(data);
             self.nextNode = self.nextNode.next;
 
+    def swapPairs(self, head: Node) -> Node:
+        newhead = Node(-1)
+        newhead.next = head
+        prev = newhead
+        while head and head.next:
+            firstNode = head;
+            secondNode = head.next;
+            prev.next =  secondNode
+            firstNode.next = secondNode.next
+            secondNode.next = firstNode
+            
+            prev = firstNode
+            head = firstNode.next
+        return newhead.next
+
 
 # Code execution starts here
 if __name__ == '__main__': 
   
     # Start with the empty list
     llist1 = LinkedList() 
-    llist1.add(7)
     llist1.add(1)
-    llist1.add(6)
-    llist2 = LinkedList() 
-    llist2.add(5)
-    llist2.add(9)
-    llist2.add(2)
+    llist1.add(2)
+    llist1.add(3) 
+    llist1.add(4)
+    llist1.reverseList(llist1.head)
+    #llist1.swapPairs(llist1.head)
 
 result=0
 rem = 0;

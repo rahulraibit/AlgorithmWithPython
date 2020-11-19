@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>021a586a-0f10-4cd9-8c6c-aaee9c445586</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test.py</StartupFile>
+    <StartupFile>BinaryIndexTree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BinaryIndexTree.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BipartitionGraphAndColouringProblem.py">
@@ -79,6 +82,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopologicalSortForFindingCycleInDG.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TopologicalSorting.py">
