@@ -33,7 +33,7 @@ def updatebit(BITTree , n , i ,v):
 		# Add 'val' to current node of BI Tree 
 		BITTree[i] += v 
 
-		# Update index to that of parent in update View 
+		# Update child index to that of parent in update View = parent index = y = x – (x & (-x))
 		i += i & (-i) 
 
 
@@ -55,11 +55,11 @@ def construct(arr, n):
 
 
 # Driver code to test above methods 
-freq = [2, 1, 1, 3, 2, 3, 4, 5, 6, 7, 8, 9] 
+freq = [1,3,5] 
 BITTree = construct(freq,len(freq)) 
-print("Sum of elements in arr[0..5] is " + str(getsum(BITTree,5))) 
-freq[3] += 6
-updatebit(BITTree, len(freq), 3, 6) 
+#print("Sum of elements in arr[0..5] is " + str(getsum(BITTree,5))) 
+freq[1] = 2
+updatebit(BITTree, len(freq), 1, 2) 
 print("Sum of elements in arr[0..5]"+
 					" after update is " + str(getsum(BITTree,5))) 
 

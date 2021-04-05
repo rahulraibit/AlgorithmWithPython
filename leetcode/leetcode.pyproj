@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>52c614cd-fbfd-4948-a8e9-b8873c113953</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AutoCompleteDesign.py</StartupFile>
+    <StartupFile>WordSubset.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -48,6 +48,9 @@
     <Compile Include="GroupAnagram.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="integerToRoman.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="IsPowerOfFour.py">
       <SubType>Code</SubType>
     </Compile>
@@ -76,6 +79,9 @@
     <Compile Include="MaxSubArrayOfSumK.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MedianOfTwoSortedList.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MinPathSum.py">
       <SubType>Code</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     <Compile Include="Palindrom.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Palindromic Number.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProductExceptItself.py">
       <SubType>Code</SubType>
     </Compile>
@@ -104,6 +113,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="WordBreakProblem.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordSubset.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
